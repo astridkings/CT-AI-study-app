@@ -47,14 +47,17 @@ Visite: [https://seu-usuario.github.io/ct-ai-study](https://seu-usuario.github.i
 10. Ambientes de Teste para Sistemas Baseados em IA
 11. Usando IA para Testes
 
-## 📱 Como Compartilhar
+### 📱 Como Compartilhar
 
-### 🌐 Site Online (Mais Fácil)
+#### 🌐 Site Online (Mais Fácil)
 - **URL:** https://astridkings.github.io/CT-AI-study-app
 - **Compatível:** Funciona em qualquer navegador
 - **Instalável:** No celular, toque "Adicionar à tela inicial" para instalar como app
 
-### 📦 APK (App Nativo Android)
+#### 📱 QR Code para Compartilhar
+Gere um QR code online com a URL acima para facilitar o acesso móvel.
+
+#### 📦 APK (App Nativo Android)
 Para gerar um APK real, você precisaria:
 1. Instalar Android Studio
 2. Usar Capacitor ou Cordova para empacotar
