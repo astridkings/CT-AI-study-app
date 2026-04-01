@@ -112,6 +112,50 @@ const quizData = {
             ],
             correct: 1,
             explanation: "GDPR exige que dados pessoais e previsões sejam precisos para o propósito pretendido."
+        },
+        {
+            question: "Qual das seguintes tecnologias NÃO é tipicamente associada à IA?",
+            options: [
+                "Redes neurais",
+                "Algoritmos genéticos",
+                "Lógica booleana básica",
+                "Aprendizado por reforço"
+            ],
+            correct: 2,
+            explanation: "Lógica booleana básica é uma técnica de programação convencional, não específica da IA."
+        },
+        {
+            question: "O que significa 'IA Super'?",
+            options: [
+                "IA que é muito rápida",
+                "IA que excede capacidades humanas em todos os domínios",
+                "IA que pode resolver problemas complexos",
+                "IA que é mais inteligente que outras IAs"
+            ],
+            correct: 1,
+            explanation: "IA Super (ASI) refere-se a IA que excede capacidades humanas em todos os domínios cognitivos."
+        },
+        {
+            question: "Qual é um exemplo de sistema baseado em IA?",
+            options: [
+                "Calculadora programável",
+                "Sistema de recomendação do Netflix",
+                "Planilha Excel com fórmulas",
+                "Relógio digital"
+            ],
+            correct: 1,
+            explanation: "Sistemas de recomendação como o do Netflix aprendem padrões de comportamento do usuário para fazer previsões."
+        },
+        {
+            question: "Por que TPUs são importantes para IA?",
+            options: [
+                "São mais baratos que GPUs",
+                "São otimizados para operações de tensor em ML",
+                "Têm mais memória que CPUs",
+                "São mais fáceis de programar"
+            ],
+            correct: 1,
+            explanation: "TPUs (Tensor Processing Units) são projetados especificamente para operações de tensor comuns em machine learning."
         }
     ],
     chapter2: [
