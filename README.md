@@ -5,10 +5,11 @@ Aplicativo web para estudo da certificação ISTQB Certified Tester AI Testing (
 ## 📚 Sobre
 
 Este app oferece:
-- Plano de estudos estruturado (11 capítulos)
-- Resumos completos de cada capítulo
-- Quizzes interativos (10 questões por capítulo)
-- Provas simuladas (3 exames completos)
+- **Plano de estudos aprimorado** com atividades práticas e recursos
+- **Resumos expandidos** com objetivos, exemplos e dicas de estudo
+- **Quizzes interativos** (130+ questões em 11 capítulos)
+- **Provas simuladas** (3 exames completos de 40 questões cada)
+- **Instalável como app** (PWA) em dispositivos móveis
 
 Baseado no programa oficial ISTQB CT-AI v1.0.
 
