@@ -47,8 +47,17 @@ Visite: [https://seu-usuario.github.io/ct-ai-study](https://seu-usuario.github.i
 10. Ambientes de Teste para Sistemas Baseados em IA
 11. Usando IA para Testes
 
-## 🤝 Contribuição
-Sinta-se à vontade para abrir issues ou pull requests para melhorias.
+## 📱 Como Compartilhar
 
-## 📄 Licença
-Este projeto é para fins educacionais. Baseado em materiais ISTQB.
+### 🌐 Site Online (Mais Fácil)
+- **URL:** https://astridkings.github.io/CT-AI-study-app
+- **Compatível:** Funciona em qualquer navegador
+- **Instalável:** No celular, toque "Adicionar à tela inicial" para instalar como app
+
+### 📦 APK (App Nativo Android)
+Para gerar um APK real, você precisaria:
+1. Instalar Android Studio
+2. Usar Capacitor ou Cordova para empacotar
+3. Ou usar serviços online como PWA2APK
+
+Mas o **site já funciona perfeitamente** como um app instalável!
