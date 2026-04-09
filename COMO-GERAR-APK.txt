@@ -1,0 +1,19 @@
+# Como Gerar APK do CT-AI Study App
+
+## Método Mais Fácil (Online - Sem Instalar Nada)
+
+1. Abra seu navegador
+2. Vá para: https://www.pwabuilder.com
+3. Cole esta URL: https://astridkings.github.io/CT-AI-study-app
+4. Clique em "Start"
+5. Selecione "Android" na lista de plataformas
+6. Clique em "Download" para baixar o APK
+7. Pronto! Agora você tem o arquivo .apk para compartilhar
+
+## Arquivos Criados
+- CT-AI-Study-APK-Ready.zip (em C:\Users\irma.lara\Documents\) - arquivos web prontos
+- capacitor.config.json - configuração para desenvolvimento futuro
+
+## Compartilhar APK
+- Envie o arquivo .apk por WhatsApp, email ou qualquer app de compartilhamento
+- Quem receber pode instalar diretamente no Android (pode precisar permitir "instalar apps desconhecidos")
