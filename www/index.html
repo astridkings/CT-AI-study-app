@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4a90e2">
+    <title>Companheiro de Estudos CT-AI - Certificação ISTQB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Companheiro de Estudos CT-AI</h1>
+            <p class="subtitle">Certificação ISTQB Certified Tester AI Testing</p>
+        </header>
+
+        <nav class="main-nav">
+            <button class="nav-btn active" data-section="home">Início</button>
+            <button class="nav-btn" data-section="study-plan">Plano de Estudos</button>
+            <button class="nav-btn" data-section="summaries">Resumos</button>
+            <button class="nav-btn" data-section="quizzes">Quizzes</button>
+            <button class="nav-btn" data-section="mock-exams">Provas Simuladas</button>
+        </nav>
+
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="hero-section">
+                    <h2>Bem-vindo ao CT-AI Study</h2>
+                    <p>Domine a certificação ISTQB Certified Tester AI Testing com materiais de estudo abrangentes, quizzes e provas simuladas.</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <h3>📚 Plano de Estudos</h3>
+                            <p>Roteiro estruturado cobrindo todos os 11 capítulos do programa</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>📝 Resumos</h3>
+                            <p>Resumos concisos de cada capítulo para reforçar o aprendizado</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>✅ Quizzes</h3>
+                            <p>10 questões por capítulo para testar seu conhecimento</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🎯 Provas Simuladas</h3>
+                            <p>Provas práticas completas para simular o exame real</p>
+                        </div>
+                    </div>
+
+                    <div class="quick-stats">
+                        <div class="stat">
+                            <span class="stat-number">11</span>
+                            <span class="stat-label">Capítulos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">130+</span>
+                            <span class="stat-label">Questões de Quiz</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Provas Simuladas</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study Plan Section -->
+            <section id="study-plan" class="section">
+                <h2>Plano de Estudos Aprimorado</h2>
+                <p class="section-intro">Cronograma estruturado com atividades práticas, recursos e dicas para dominar a certificação CT-AI. Tempo total estimado: 25-30 horas de estudo focado.</p>
+
+                <div class="study-plan-meta">
+                    <div class="meta-item">
+                        <h4>📅 Duração Total</h4>
+                        <p>2-3 semanas (estudando 2-3 horas/dia)</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>🎯 Método de Estudo</h4>
+                        <p>Teoria + Prática + Revisão + Quiz</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>📊 Acompanhamento</h4>
+                        <p>Marque progresso e revise pontos fracos</p>
+                    </div>
+                </div>
+                
+                <div class="study-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">1</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 1: Introdução à IA</h3>
+                            <p class="duration">105 minutos (1h 45min)</p>
+                            <p><strong>Tópicos:</strong> Definição de IA, Efeito IA, tipos de IA (estreita/geral/super), sistemas convencionais vs baseados em IA, tecnologias de IA, frameworks, hardware, AIaaS, modelos pré-treinados, normas.</p>
+                            
+                            <div class="study-activities">
+                                <h4>📖 Atividades Práticas:</h4>
+                                <ul>
+                                    <li>Identifique 3 sistemas que você usa diariamente - quais são IA vs convencionais?</li>
+                                    <li>Pesquise um framework de IA (ex: TensorFlow) e veja casos de uso</li>
+                                    <li>Assista a um vídeo curto sobre "O que é IA?" no YouTube</li>
+                                </ul>
+                                
+                                <h4>🔗 Recursos Recomendados:</h4>
+                                <ul>
+                                    <li>Documentação ISTQB CT-AI Capítulo 1</li>
+                                    <li>Artigo: "The Master Algorithm" (Pedro Domingos)</li>
+                                    <li>Site: machinelearningmastery.com</li>
+                                </ul>
+                                
+                                <h4>✅ Checklist de Domínio:</h4>
+                                <ul>
+                                    <li>□ Definição de IA memorizada</li>
+                                    <li>□ 3 tipos de IA compreendidos</li>
+                                    <li>□ Diferença IA vs convencional clara</li>
+                                    <li>□ Pelo menos 2 tecnologias de IA conhecidas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 2: Características de Qualidade para Sistemas Baseados em IA</h3>
+                            <p class="duration">105 minutos</p>
+                            <p>Flexibilidade, adaptabilidade, autonomia, evolução, viés, ética, efeitos colaterais, hacking de recompensa, transparência, interpretabilidade, explicabilidade, segurança.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">3</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 3: Machine Learning (ML), Visão Geral</h3>
+                            <p class="duration">145 minutos</p>
+                            <p>Formas de ML (supervisionado, não supervisionado, por reforço), fluxo de trabalho ML, seleção de algoritmos, overfitting e underfitting.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">4</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 4: Machine Learning (ML), Dados</h3>
+                            <p class="duration">230 minutos</p>
+                            <p>Preparação de dados, conjuntos de dados de treinamento/validação/teste, questões de qualidade de dados, impacto da qualidade dos dados, rotulagem de dados para aprendizado supervisionado.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">5</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 5: Machine Learning (ML), Métricas de Desempenho Funcional</h3>
+                            <p class="duration">120 minutos</p>
+                            <p>Matriz de confusão, acurácia, precisão, recall, F1-score, métricas adicionais para classificação, regressão e agrupamento, limitações de métricas, conjuntos de referência.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">6</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 6: Redes Neurais e Testes</h3>
+                            <p class="duration">65 minutes</p>
+<p>Estrutura e função de redes neurais, redes neurais profundas, perceptron, medidas de cobertura para redes neurais.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">7</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 7: Visão Geral de Sistemas Baseados em IA</h3>
+                            <p class="duration">115 minutes</p>
+                            <p>Especificação de sistemas, níveis de teste, teste de dados de entrada, teste de modelo ML, teste de componentes, teste de integração, testes de sistema, teste de aceite, desvio de conceito.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">8</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 8: Teste de Características Específicas de Qualidade da IA</h3>
+                            <p class="duration">150 minutes</p>
+                            <p>Teste de sistemas de autoaprendizagem, sistemas autônomos, teste de viés, sistemas probabilísticos, sistemas complexos, transparência/interpretabilidade/explicabilidade, oráculos de teste, objetivos de teste.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">9</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 9: Métodos e Técnicas para Teste de Sistemas Baseados em IA</h3>
+                            <p class="duration">245 minutos</p>
+                            <p>Ataques contraditórios, envenenamento de dados, teste em pares, teste consecutivo (back-to-back), teste A/B, teste metamórfico, teste baseado em experiência.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">10</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 10: Ambientes de Teste para Sistemas Baseados em IA</h3>
+                            <p class="duration">30 minutos</p>
+                            <p>Diferenças de ambientes de teste, ambientes de teste virtuais, benefícios de ambientes virtuais.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">11</div>
+                        <div class="timeline-content">
+                            <h3>Capítulo 11: Usando IA para Testes</h3>
+                            <p class="duration">195 minutes</p>
+                            <p>Tecnologias de IA para testes, análise de defeitos, geração de casos de teste, otimização de conjuntos de teste de regressão, previsão de defeitos, teste de interface.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Summaries Section -->
+            <section id="summaries" class="section">
+                <h2>Resumos</h2>
+                <p class="section-intro">Resumos rápidos de cada capítulo para reforçar seu entendimento.</p>
+                <div class="summary-enhanced">
+                    <h3>Resumo Completo (Guia de uso)</h3>
+                    <p>Este resumo completo foi adicionado para garantir que você tenha o contexto essencial que pode não estar nos pontos-chave rápidos. Use-o como checklist ou revisão final antes da prova:</p>
+                    <ul>
+                        <li><strong>Objetivo de cada capítulo</strong> - entenda o porquê do tema e a relação com os itens de prova ISTQB.</li>
+                        <li><strong>Principais termos e definições</strong> - memorize palavras que aparecem frequentemente na prova.</li>
+                        <li><strong>Abordagens de teste</strong> - para cada capítulo de teste (3, 7, 8, 9 etc.), descreva a técnica e quando aplicar.</li>
+                        <li><strong>Riscos e mitigações</strong> - pontos de vulnerabilidade de IA (viés, troca de conceito, adversarial) e como testar/mitigar.</li>
+                        <li><strong>Dicas de estudo</strong> - maior foco em métricas, oráculos, métricas de cobertura e questões nas quais o examinador costuma pedir exemplos.</li>
+                    </ul>
+                    <p>No final de cada sessão de estudos, anote: o que está claro, o que precisa de revisão e possíveis exemplos práticos que você possa reutilizar no exame.</p>
+                </div>
+                
+                <div class="summaries-list">
+                    <details class="summary-item">
+                        <summary>Capítulo 1: Introdução à IA</summary>
+                        <div class="summary-content">
+                            <h3>🎯 Objetivo do Capítulo:</h3>
+                            <p>Entender os fundamentos da IA e como ela difere de sistemas convencionais, preparando o terreno para discutir testes específicos de IA.</p>
+
+                            <h3>📚 Conceitos Chave Expandidos:</h3>
+                            <ul>
+                                <li><strong>Definição de IA:</strong> A capacidade de um sistema projetado para adquirir, processar e aplicar conhecimentos e habilidades. <em>Exemplo:</em> Um chatbot que aprende com conversas anteriores vs. um sistema de resposta pré-programado.</li>
+                                <li><strong>Efeito IA:</strong> À medida que as capacidades de IA avançam, tarefas anteriormente consideradas IA se tornam convencionais, mudando a definição de IA. <em>Exemplo:</em> Reconhecimento óptico de caracteres (OCR) era considerado IA avançada nos anos 80, hoje é rotina.</li>
+                                <li><strong>Tipos de IA:</strong>
+                                    <ul>
+                                        <li><strong>IA Estreita (ANI):</strong> Especializada em tarefas específicas (ex: filtros de spam, sistemas de jogos como AlphaGo, assistentes virtuais como Siri)</li>
+                                        <li><strong>IA Geral (AGI):</strong> Capacidades cognitivas amplas semelhantes às humanas (ainda não alcançada)</li>
+                                        <li><strong>IA Super (ASI):</strong> Excede capacidades humanas em todos os domínios</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Sistemas Convencionais vs IA:</strong>
+                                    <ul>
+                                        <li><strong>Convencionais:</strong> Usam regras programadas (if-then-else), comportamento previsível, limitado à lógica do programador</li>
+                                        <li><strong>Baseados em IA:</strong> Aprendem padrões a partir de dados, comportamento adaptativo, podem surpreender o programador</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Tecnologias de IA:</strong>
+                                    <ul>
+                                        <li><strong>Redes Neurais:</strong> Inspiradas no cérebro humano, usadas em visão computacional e NLP</li>
+                                        <li><strong>Machine Learning:</strong> Algoritmos que aprendem com dados (supervisionado, não supervisionado, por reforço)</li>
+                                        <li><strong>Modelos Bayesianos:</strong> Usam probabilidade para tomada de decisão</li>
+                                        <li><strong>Árvores de Decisão:</strong> Estruturas em forma de árvore para classificação</li>
+                                        <li><strong>Lógica Difusa:</strong> Lida com incerteza e imprecisão</li>
+                                        <li><strong>Algoritmos de Busca:</strong> Como A* para otimização</li>
+                                        <li><strong>Algoritmos Genéticos:</strong> Inspirados na evolução natural</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Frameworks de Desenvolvimento:</strong>
+                                    <ul>
+                                        <li><strong>TensorFlow:</strong> Framework open-source do Google para ML</li>
+                                        <li><strong>PyTorch:</strong> Framework da Meta com foco em pesquisa</li>
+                                        <li><strong>Keras:</strong> API de alto nível para redes neurais</li>
+                                        <li><strong>Scikit-learn:</strong> Biblioteca Python para ML clássico</li>
+                                        <li><strong>IBM Watson Studio:</strong> Plataforma integrada para desenvolvimento de IA</li>
+                                        <li><strong>CNTK (Microsoft):</strong> Toolkit de Redes Neurais Cognitivas</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Hardware para IA:</strong>
+                                    <ul>
+                                        <li><strong>GPUs:</strong> Processamento paralelo massivo (milhares de núcleos), superam CPUs para ML devido à arquitetura paralela</li>
+                                        <li><strong>TPUs:</strong> Tensor Processing Units do Google, otimizadas para operações de tensor</li>
+                                        <li><strong>ASICs:</strong> Circuitos integrados específicos para aplicações de IA</li>
+                                        <li><strong>Processadores Neuromórficos:</strong> Inspirados na estrutura do cérebro (ex: Loihi da Intel)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>AIaaS (AI as a Service):</strong> Modelos ML acessíveis via web APIs. <em>Exemplos:</em>
+                                    <ul>
+                                        <li>IBM Watson: Serviços de NLP, visão, fala</li>
+                                        <li>Google Cloud AI: AutoML, Vision AI, Natural Language</li>
+                                        <li>Azure Cognitive Services: APIs para visão, fala, linguagem</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Modelos Pré-treinados:</strong> Modelos treinados em grandes conjuntos de dados que podem ser refinados ou transferidos para novas tarefas (transfer learning). <em>Exemplos:</em> BERT para NLP, ResNet para visão computacional.</li>
+                                <li><strong>Riscos de Modelos Pré-treinados:</strong>
+                                    <ul>
+                                        <li>Falta de transparência sobre dados de treinamento</li>
+                                        <li>Viéses herdados dos dados originais</li>
+                                        <li>Vulnerabilidades conhecidas (ataques adversarial)</li>
+                                        <li>Similaridade insuficiente entre caso de uso original e novo</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Normas e Regulamentos:</strong>
+                                    <ul>
+                                        <li><strong>ISO/IEC:</strong> Padrões internacionais para IA</li>
+                                        <li><strong>GDPR (Europa):</strong> Requisitos de precisão e transparência em dados pessoais</li>
+                                        <li><strong>Diretrizes IEEE:</strong> Ética em sistemas autônomos e robóticos</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <h3>🧪 Relação com Testes:</h3>
+                            <p>Este capítulo estabelece a base para entender por que sistemas de IA precisam de abordagens de teste diferentes dos sistemas convencionais.</p>
+
+                            <h3>📝 Dicas de Estudo:</h3>
+                            <ul>
+                                <li>Memorize os 3 tipos de IA e exemplos de cada um</li>
+                                <li>Entenda a diferença fundamental: regras programadas vs. aprendizado de dados</li>
+                                <li>Pratique identificando se um sistema é "convencional" ou "baseado em IA"</li>
+                                <li>Questões comuns: "Qual tecnologia de IA seria mais apropriada para [cenário]?"</li>
+                            </ul>
+
+                            <h3>🔍 Questões de Revisão:</h3>
+                            <ul>
+                                <li>O que diferencia IA de automação convencional?</li>
+                                <li>Por que GPUs são importantes para IA?</li>
+                                <li>Quais são os riscos de usar modelos pré-treinados?</li>
+                                <li>Como o Efeito IA impacta a definição de IA?</li>
+                            </ul>
+                        </div>
+                    </details>
+                                <li><strong>Tipos de IA:</strong>
+                                    <ul>
+                                        <li>IA Estreita: Especializada em tarefas específicas (ex: filtros de spam, sistemas de jogos)</li>
+                                        <li>IA Geral: Capacidades cognitivas amplas semelhantes às humanas (ainda não alcançada)</li>
+                                        <li>IA Super: Excede capacidades humanas em todos os domínios</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Sistemas Convencionais vs IA:</strong> Sistemas convencionais usam regras programadas; sistemas de IA aprendem padrões a partir de dados.</li>
+                                <li><strong>Tecnologias de IA:</strong> Redes neurais, machine learning, modelos Bayesianos, árvores de decisão, lógica difusa, algoritmos de busca, algoritmos genéticos.</li>
+                                <li><strong>Frameworks de Desenvolvimento:</strong> TensorFlow, PyTorch, Keras, Scikit-learn, IBM Watson Studio, CNTK.</li>
+                                <li><strong>Hardware:</strong> GPUs (paralelismo massivo), TPUs, ASICs, processadores neuromórficos. GPUs superam CPUs para ML devido a milhares de núcleos.</li>
+                                <li><strong>AIaaS:</strong> AI como Serviço - Modelos ML acessíveis via web (ex: IBM Watson, Google Cloud AI, Azure Cognitive Services).</li>
+                                <li><strong>Modelos Pré-treinados:</strong> Modelos treinados em grandes conjuntos de dados que podem ser refinados ou transferidos para novas tarefas (transfer learning).</li>
+                                <li><strong>Riscos:</strong> Falta de transparência, vieses herdados, vulnerabilidades conhecidas, similaridade insuficiente entre caso de uso original e novo.</li>
+                                <li><strong>Normas:</strong> Padrões ISO/IEC, GDPR (requisitos de precisão), diretrizes de ética IEEE.</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 2: Características de Qualidade para Sistemas Baseados em IA</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Flexibilidade:</strong> Capacidade de ser usado em situações fora dos requisitos originais.</li>
+                                <li><strong>Adaptabilidade:</strong> Facilidade de modificar para novas situações (hardware, ambientes).</li>
+                                <li><strong>Autonomia:</strong> Capacidade de trabalhar independentemente sem supervisão humana por períodos prolongados.</li>
+                                <li><strong>Evolução:</strong> Capacidade de melhorar a si mesmo em resposta a restrições externas em mudança. Deve permanecer alinhado com requisitos originais e valores humanos.</li>
+                                <li><strong>Viés:</strong>
+                                    <ul>
+                                        <li>Viés algorítmico: Configuração incorreta do algoritmo</li>
+                                        <li>Viés de amostragem: Dados de treinamento não representativos</li>
+                                        <li>Viés inadequado: Resultados injustos (gênero, raça, etnia)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Ética:</strong> Princípios da OCDE - beneficiar pessoas/planeta, respeitar direitos, transparência, robustez, responsabilidade.</li>
+                                <li><strong>Efeitos Colaterais:</strong> Consequências negativas de focar apenas em objetivos específicos (ex: viagem eficiente mas desconfortável).</li>
+                                <li><strong>Hacking de Recompensa:</strong> Sistema alcança objetivo de formas não intencionais (ex: IA de jogo modificando pontuação diretamente em vez de jogar).</li>
+                                <li><strong>Características XAI:</strong>
+                                    <ul>
+                                        <li>Transparência: Facilidade de determinar algoritmo e dados de treinamento</li>
+                                        <li>Interpretabilidade: Clareza para entender tecnologia</li>
+                                        <li>Explicabilidade: Facilidade de determinar como sistema alcançou resultado específico</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Desafios de Segurança:</strong> Complexidade, indeterminismo, natureza probabilística, autoaprendizagem, falta de transparência/explicabilidade, falta de robustez.</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 3: Machine Learning (ML), Visão Geral</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Aprendizado Supervisionado:</strong> Treina com dados rotulados. Tarefas incluem classificação (saída discreta) e regressão (saída numérica contínua).</li>
+                                <li><strong>Aprendizado Não Supervisionado:</strong> Treina com dados não rotulados. Tarefas incluem agrupamento (agrupar dados similares) e associação (encontrar relações).</li>
+                                <li><strong>Aprendizado por Reforço:</strong> Agente aprende através de interação com o ambiente via recompensas e penalidades. Dados de treinamento não usados.</li>
+                                <li><strong>Fluxo de Trabalho ML:</strong>
+                                    <ol>
+                                        <li>Entender objetivos e definir critérios de aceite</li>
+                                        <li>Selecionar framework</li>
+                                        <li>Selecionar e construir algoritmo</li>
+                                        <li>Preparar e testar dados (aquisição, pré-processamento, engenharia de recursos)</li>
+                                        <li>Treinar modelo</li>
+                                        <li>Avaliar modelo</li>
+                                        <li>Ajustar modelo (ajuste de hiper parâmetros)</li>
+                                        <li>Testar modelo com dados de teste independentes</li>
+                                        <li>Implantar modelo</li>
+                                        <li>Monitorar e ajustar para desvio de conceito</li>
+                                    </ol>
+                                </li>
+                                <li><strong>Fatores de Seleção do Algoritmo:</strong> Funcionalidade necessária, características de qualidade (precisão, velocidade, memória, transparência), tipos/quantidade de dados, número de recursos, número de classes, experiência, tentativa e erro.</li>
+                                <li><strong>Overfitting:</strong> Modelo ajusta dados de treinamento muito de perto, não pode generalizar para novos dados. Causado por ajuste de ruído/anomalias ou dados de treinamento insuficientes.</li>
+                                <li><strong>Underfitting:</strong> Modelo muito simples para ajustar padrões de dados de treinamento. Causado por recursos insuficientes ou escolha inadequada de algoritmo.</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 4: Machine Learning (ML), Dados</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Atividades de Preparação de Dados:</strong>
+                                    <ul>
+                                        <li>Aquisição: Identificar, coletar, rotular fontes</li>
+                                        <li>Pré-processamento: Limpar, transformar, aumentar, amostrar</li>
+                                        <li>Engenharia de Recursos: Seleção (remover ruído), Extração (derivar novos recursos)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Desafios:</strong> Necessidade de conhecimento de domínio/dados, dificuldade em obter dados de alta qualidade, automatizar pipeline, custos, introdução de defeitos, viés de amostragem.</li>
+                                <li><strong>Três Conjuntos de Dados:</strong>
+                                    <ul>
+                                        <li>Treinamento: Treinar o modelo</li>
+                                        <li>Validação: Avaliar e ajustar o modelo</li>
+                                        <li>Teste: Testar o modelo ajustado (independente, mantido separado)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Divisões Típicas:</strong> 60:20:20 a 80:10:10 (treinamento:validação:teste)</li>
+                                <li><strong>Questões de Qualidade de Dados:</strong> Dados errados, incompletos, rotulados incorretamente, insuficientes, não processados, obsoletos, desbalanceados, viesados, injustos, duplicados, irrelevantes, questões de privacidade, questões de segurança.</li>
+                                <li><strong>Abordagens à Rotulagem:</strong> Interna, terceirizada, por multidão, assistida por IA, híbrida.</li>
+                                <li><strong>Causas de Dados Rotulados Incorretamente:</strong> Erros aleatórios, erros sistêmicos, erros maliciosos, erros de tradução, julgamentos subjetivos, falta de conhecimento de domínio, tarefas complexas, defeitos de ferramentas, rotulagem probabilística por ML.</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 5: Machine Learning (ML), Métricas de Desempenho Funcional</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Métricas da Matriz de Confusão:</strong>
+                                    <ul>
+                                        <li>Acurácia = (VP + VN) / (VP + VN + FP + FN)</li>
+                                        <li>Precisão = VP / (VP + FP)</li>
+                                        <li>Recall (Sensibilidade) = VP / (VP + FN)</li>
+                                        <li>F1-score = 2 × (Precisão × Recall) / (Precisão + Recall)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Métricas de Classificação:</strong> Curva ROC, AUC (área sob a curva)</li>
+                                <li><strong>Métricas de Regressão:</strong> MSE (Erro Quadrático Médio), R-quadrado (coeficiente de determinação)</li>
+                                <li><strong>Métricas de Agrupamento:</strong> Métricas intra-agrupamento (similaridade dentro dos agrupamentos), métricas inter-agrupamentos (similaridade entre agrupamentos), coeficiente de silhueta (-1 a +1)</li>
+                                <li><strong>Limitações:</strong> Só medem funcionalidade, dependem da qualidade de dados rotulados, dependem da representatividade de dados de teste, aplicam apenas ao modelo ML não ao sistema completo, requerem ferramentas.</li>
+                                <li><strong>Diretrizes de Seleção de Métricas:</strong>
+                                    <ul>
+                                        <li>Acurácia: Conjuntos de dados simétricos</li>
+                                        <li>Precisão: Custo alto de falsos positivos</li>
+                                        <li>Recall: Crítico não perder positivos (ex: detecção de câncer)</li>
+                                        <li>F1-score: Classes desbalanceadas, precisão e recall igualmente importantes</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Benchmarks:</strong> MLCommons, DAWNBench, MLMark - comparar desempenho de hardware, frameworks e plataformas em nuvem.</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 6: Redes Neurais e Testes</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Estrutura de Rede Neural:</strong>
+                                    <ul>
+                                        <li>Camada de entrada: Recebe entradas</li>
+                                        <li>Camadas ocultas: Realizam cálculos (redes neurais profundas têm múltiplas camadas ocultas)</li>
+                                        <li>Camada de saída: Fornece resultados</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Cálculo do Neurônio:</strong> Valor de ativação = função(pesos × ativações da camada anterior + viés). Cada conexão tem um peso que ajusta durante o treinamento.</li>
+                                <li><strong>Perceptron:</strong> Rede de camada única e neurônio único - a rede neural mais simples.</li>
+                                <li><strong>Processo de Treinamento:</strong>
+                                    <ol>
+                                        <li>Passar dados pela rede</li>
+                                        <li>Comparar saída com resultado esperado</li>
+                                        <li>Alimentar erro de volta pela rede</li>
+                                        <li>Ajustar pesos para minimizar erro</li>
+                                        <li>Repetir para múltiplas épocas (iterações completas do conjunto de dados)</li>
+                                    </ol>
+                                </li>
+                                <li><strong>Medidas de Cobertura (em vez de cobertura de código tradicional):</strong>
+                                    <ul>
+                                        <li>Cobertura de neurônios: Cada ativação de neurônio > 0</li>
+                                        <li>Cobertura de limite: Cada ativação de neurônio > limite (ex: 0,75)</li>
+                                        <li>Cobertura de mudança de sinal: Cada neurônio alcança tanto ativações positivas quanto negativas</li>
+                                        <li>Cobertura de mudança de valor: Cada neurônio alcança duas ativações com diferença > limite</li>
+                                        <li>Cobertura de sinal: Pares de neurônios adjacentes onde mudar o sinal do primeiro muda o sinal do segundo</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 7: Visão Geral de Sistemas Baseados em IA</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Desafios de Especificação:</strong> Desenvolvimento exploratório, precisão desconhecida, natureza probabilística, replicação de comportamento humano, requisitos de flexibilidade, características evolutivas (adaptabilidade, autonomia).</li>
+                                <li><strong>Níveis de Teste:</strong>
+                                    <ul>
+                                        <li>Teste de Dados de Entrada: Garantir qualidade de dados de treinamento e previsão (revisões, técnicas estatísticas, EDA, teste de pipeline)</li>
+                                        <li>Teste de Modelo ML: Verificar métricas de desempenho (métricas funcionais ML e critérios não funcionais como velocidade, recursos)</li>
+                                        <li>Teste de Componentes: Componentes não-ML (UI, comunicação)</li>
+                                        <li>Teste de Integração: Interações entre componentes de IA e não-IA</li>
+                                        <li>Testes de Sistema: Sistema completo em ambiente de teste representativo (funcional e não funcional)</li>
+                                        <li>Teste de Aceite: Determinar se sistema é aceitável para cliente</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Desafios de Teste de Dados:</strong> Big data (volume, velocidade, variedade), dados evolutivos, dados privados/confidenciais, usar mesma implementação que desenvolvedores mascara defeitos de pipeline.</li>
+                                <li><strong>Viés de Automação:</strong>
+                                    <ul>
+                                        <li>Tipo 1: Aceitar recomendações do sistema sem considerar outras fontes</li>
+                                        <li>Tipo 2: Perder falhas do sistema devido ao monitoramento reduzido</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Documentação de Componente de IA:</strong> Geral, design, uso, conjunto de dados, teste, treinamento/desempenho - crítica para transparência e testabilidade.</li>
+                                <li><strong>Desvio de Conceito:</strong> Ambiente operacional muda enquanto modelo não, causando degradação de desempenho. Deve testar regularmente e retreinar ou refinar.</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 8: Teste de Características Específicas de Qualidade da IA</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Desafios de Teste de Autoaprendizagem:</strong> Mudanças inesperadas, critérios de aceite complexos, tempo de teste insuficiente, requisitos de recursos, ambientes operacionais indefinidos, ambientes de teste complexos, modificações comportamentais não intencionais.</li>
+                                <li><strong>Teste de Sistemas Autônomos:</strong> Testar se sistema solicita intervenção humana quando: perdendo controle, após timeout, ou solicita desnecessariamente quando ainda autônomo.</li>
+                                <li><strong>Teste de Viés:</strong>
+                                    <ul>
+                                        <li>Analisar modelo durante treinamento (viés algorítmico)</li>
+                                        <li>Revisar fontes de dados de treinamento (viés de amostragem)</li>
+                                        <li>Revisar pré-processamento para introdução de viés de amostragem</li>
+                                        <li>Medir mudanças de saída entre grupos de entrada (método LIME)</li>
+                                        <li>Obter dados de atributos correlacionados adicionais</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Desafios Probabilísticos/Não Determinísticos:</strong> Múltiplos resultados válidos, dificuldade em definir resultados esperados, necessidade de conhecimento mais profundo, múltiplas execuções para validade estatística.</li>
+                                <li><strong>Desafios de Sistema Complexo:</strong> Problema do oráculo (testadores não podem determinar resultados esperados), estrutura interna complexa, exacerbado por componentes probabilísticos e interações.</li>
+                                <li><strong>Teste de Transparência:</strong> Comparar algoritmo/dados documentados com implementação real.</li>
+                                <li><strong>Método LIME:</strong> Injeta anomalias de entrada/saída para mostrar relação entre entradas e saídas.</li>
+                                <li><strong>Problema do Oráculo de Teste:</strong> Dificuldade em estabelecer resultados esperados. Mitigações: teste consecutivo, teste A/B, teste metamórfico, consultar especialistas.</li>
+                                <li><strong>Critérios de Aceite por Característica de Qualidade:</strong>
+                                    <ul>
+                                        <li>Adaptabilidade: Verificar funcionalidade após adaptação, tempo/recursos para adaptar</li>
+                                        <li>Flexibilidade: Testar em contextos fora da especificação, tempo/recursos para mudar</li>
+                                        <li>Evolução: Verificar aprendizado, lidar com desvio de conceito</li>
+                                        <li>Autonomia: Resposta quando forçado fora do contexto, solicitando intervenção</li>
+                                        <li>Transparência/Interpretabilidade/Explicabilidade: Revisar documentação, pesquisar usuários</li>
+                                        <li>Sem Viés: Testar com dados independentes não viesados, comparar com dados externos</li>
+                                        <li>Ética: Verificar contra listas de verificação (ex: lista ALTIA da UE)</li>
+                                        <li>Efeitos Colaterais: Identificar e testar efeitos prejudiciais</li>
+                                        <li>Hacking de Recompensa: Testar com diferentes medidas de sucesso</li>
+                                        <li>Segurança: Testar em ambientes virtuais, tentar forçar danos</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 9: Métodos e Técnicas para Teste de Sistemas Baseados em IA</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Ataques Contraditórios:</strong> Atacante modifica sutilmente entradas válidas para causar previsões incorretas (ex: alterar pixels invisíveis ao olho humano).</li>
+                                <li><strong>Teste Contraditório:</strong> Realizar ataques para identificar vulnerabilidades, adicionar exemplos contraditórios aos dados de treinamento.</li>
+                                <li><strong>Transferibilidade:</strong> Exemplos contraditórios frequentemente funcionam em modelos diferentes treinados para mesma tarefa, mesmo com arquiteturas diferentes.</li>
+                                <li><strong>Ataques Caixa-branca vs Caixa-preta:</strong>
+                                    <ul>
+                                        <li>Caixa-branca: Atacante conhece algoritmo, parâmetros, configuração</li>
+                                        <li>Caixa-preta: Atacante explora modelo, cria duplicata, usa caixa-branca no duplicata</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Envenenamento de Dados:</strong> Manipular dados de treinamento para causar previsões incorretas (backdoors ou classificação incorreta).</li>
+                                <li><strong>Detecção de Envenenamento:</strong> EDA (anomalias), revisar políticas de aquisição de dados, teste A/B, teste de regressão com conjunto de dados confiável.</li>
+                                <li><strong>Teste em Pares:</strong> Técnica combinatória onde cada par de valores é testado pelo menos uma vez. Reduz casos de teste significativamente mantendo eficácia. Bom para sistemas com muitos parâmetros.</li>
+                                <li><strong>Teste Consecutivo (Teste Diferencial):</strong> Usar versão alternativa de sistema como pseudo-oráculo, comparar resultados. Deve evitar software comum entre SUT e pseudo-oráculo.</li>
+                                <li><strong>Teste A/B:</strong> Comparar duas variações (A e B) com mesmas entradas para determinar qual desempenha melhor. Método estatístico exigindo múltiplas execuções. Usado para atualizações e sistemas de autoaprendizagem.</li>
+                                <li><strong>Teste Metamórfico (MT):</strong> Gerar casos de teste de acompanhamento de caso de teste origem baseado em relação metamórfica (propriedade de função). Resultados esperados são relativos à origem, não absolutos. Útil quando existe problema do oráculo. 3-6 MRs podem revelar 90%+ dos defeitos.</li>
+                                <li><strong>Teste Baseado em Experiência:</strong>
+                                    <ul>
+                                        <li>Suposição de erro: Baseado em conhecimento de erros típicos</li>
+                                        <li>Teste exploratório: Modelar, gerar, executar testes iterativamente baseado em resultados anteriores</li>
+                                        <li>Listas de verificação: 28 afirmações de teste ML do Google (dados, desenvolvimento de modelo, infraestrutura, monitoramento)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Seleção de Técnica de Teste:</strong>
+                                    <ul>
+                                        <li>Problema do oráculo: Consecutivo, A/B, metamórfico</li>
+                                        <li>Segurança: Contraditório, envenenamento de dados</li>
+                                        <li>Múltiplos parâmetros: Teste em pares</li>
+                                        <li>Análise de dados/operacional: Baseado em experiência, EDA</li>
+                                        <li>Crítico para missão NN: Métricas de cobertura</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 10: Ambientes de Teste para Sistemas Baseados em IA</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Diferenças de Ambiente de Teste para Sistemas de IA:</strong>
+                                    <ul>
+                                        <li>Autoaprendizagem: Deve imitar mudanças ambientais indefinidas, requer aleatoriedade</li>
+                                        <li>Autônomo: Deve criar condições para ceder/retornar autonomia, potencialmente perigoso</li>
+                                        <li>Multiagente: Deve incorporar não determinismo</li>
+                                        <li>Explicabilidade: Pode precisar de ferramentas para explicar decisões</li>
+                                        <li>Hardware: Pode precisar de processadores específicos de IA (TPUs, ASICs)</li>
+                                        <li>Big data: Planejamento cuidadoso para volume, velocidade, variedade</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Benefícios de Ambientes de Teste Virtuais:</strong>
+                                    <ul>
+                                        <li>Cenários perigosos: Testar sem risco para SUT, ambiente ou pessoas</li>
+                                        <li>Cenários incomuns: Testar eventos raros sem esperar (ex: eclipse, quatro ônibus no cruzamento)</li>
+                                        <li>Cenários extremos: Testar cenários caros ou impossíveis (desastre nuclear, espaço)</li>
+                                        <li>Intensivos em tempo: Acelelerar escalas de tempo, rodar em paralelo</li>
+                                        <li>Observação e controle: Maior controle sobre ambiente, monitoramento contínuo</li>
+                                        <li>Disponibilidade: Testar com hardware indisponível (simular)</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Exemplos de Ambientes Virtuais:</strong>
+                                    <ul>
+                                        <li>Morse: Simulação de robôs (baseado em Blender)</li>
+                                        <li>Habitat AI: Ambientes 3D foto-realistas (Facebook)</li>
+                                        <li>DRIVE Constellation: Plataforma de teste de veículos autônomos (NVIDIA)</li>
+                                        <li>MATLAB/Simulink: Desenvolvimento e simulação ML com dados sintéticos</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <details class="summary-item">
+                        <summary>Capítulo 11: Usando IA para Testes</summary>
+                        <div class="summary-content">
+                            <h3>Conceitos Chave:</h3>
+                            <ul>
+                                <li><strong>Categorias de Tecnologias de IA para Testes:</strong>
+                                    <ul>
+                                        <li>Lógica difusa e métodos probabilísticos: Lidar com problemas probabilísticos (ex: técnicas Bayesianas para previsão de falhas)</li>
+                                        <li>Classificação, aprendizado, previsão: Gerenciamento de defeitos, previsão de defeitos, teste de interface</li>
+                                        <li>Busca e otimização: Geração de casos de teste, otimização de cobertura, otimização de teste de regressão</li>
+                                    </ul>
+                                </li>
+                                <li><strong>IA para Análise de Defeitos:</strong>
+                                    <ul>
+                                        <li>Categorização: PNL para extrair tópicos, algoritmos de agrupamento para agrupar defeitos, identificar duplicatas</li>
+                                        <li>Criticidade: Modelos ML treinados nas características de defeitos críticos</li>
+                                        <li>Atribuição: ML sugere desenvolvedores apropriados baseados no conteúdo do defeito e histórico</li>
+                                    </ul>
+                                </li>
+                                <li><strong>IA para Geração de Testes:</strong> Baseado em código fonte, interface do usuário ou modelo de teste legível por máquina. Problema do oráculo - precisa de modelo de teste ou pseudo-oráculo. Ferramentas baseadas em IA alcançam cobertura equivalente, encontram mais defeitos, reduzem etapas de teste de ~15.000 para ~100.</li>
+                                <li><strong>IA para Otimização de Teste de Regressão:</strong> Analisa resultados anteriores, defeitos e mudanças recentes para otimizar seleção, priorização e aumento. Pode reduzir o tamanho do conjunto de teste de regressão em 50% detectando a maioria dos defeitos, ou reduzir a duração de execução em 40% sem perda significativa de detecção.</li>
+                                <li><strong>IA para Previsão de Defeitos:</strong> Prever presença, quantidade ou localização de defeitos. Baseado em métricas de código fonte, métricas de processo, métricas de pessoas, métricas organizacionais. Melhores previsões de métricas de pessoas/organizacionais, não de métricas de código. Mais eficaz com experiência passada similar.</li>
+                                <li><strong>IA para Teste de Interface:</strong>
+                                    <ul>
+                                        <li>Teste através de GUI: IA reduz fragilidade da identificação de objetos usando múltiplos critérios (XPath, label, id, classe, coordenadas), pondera critérios historicamente estáveis mais altos</li>
+                                        <li>Teste visual: Reconhecimento de imagem para interagir diretamente com objetos, independente do código subjacente. Pode comparar capturas de tela para teste de regressão, detectar mudanças de layout/tamanho/posição/cor/fonte</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- Quizzes Section -->
+            <section id="quizzes" class="section">
+                <h2>Quizzes</h2>
+                <p class="section-intro">Teste seu conhecimento com 10 questões por capítulo.</p>
+                
+                <div class="quiz-selection">
+                    <h3>Selecione um Capítulo:</h3>
+                        <div class="chapter-grid">
+                            <button class="chapter-btn" data-chapter="1">Capítulo 1: Introdução à IA</button>
+                            <button class="chapter-btn" data-chapter="2">Capítulo 2: Características de Qualidade</button>
+                            <button class="chapter-btn" data-chapter="3">Capítulo 3: Visão Geral de ML</button>
+                            <button class="chapter-btn" data-chapter="4">Capítulo 4: Dados de ML</button>
+                            <button class="chapter-btn" data-chapter="5">Capítulo 5: Métricas de Desempenho de ML</button>
+                            <button class="chapter-btn" data-chapter="6">Capítulo 6: Redes Neurais</button>
+                            <button class="chapter-btn" data-chapter="7">Capítulo 7: Visão Geral de Sistemas de IA</button>
+                            <button class="chapter-btn" data-chapter="8">Capítulo 8: Teste de Características de Qualidade da IA</button>
+                            <button class="chapter-btn" data-chapter="9">Capítulo 9: Métodos de Teste</button>
+                            <button class="chapter-btn" data-chapter="10">Capítulo 10: Ambientes de Teste</button>
+                            <button class="chapter-btn" data-chapter="11">Capítulo 11: Usando IA para Testes</button>
+                        </div>
+                </div>
+
+                <div id="quiz-container" class="quiz-container hidden">
+                    <div class="quiz-header">
+                        <h3 id="quiz-title"></h3>
+                        <div class="quiz-progress">
+                        <span id="quiz-progress-text">Questão 1 de 10</span>
+                            <div class="progress-bar">
+                                <div id="quiz-progress-bar" class="progress-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="quiz-question" class="quiz-question"></div>
+                    <div id="quiz-options" class="quiz-options"></div>
+                    <div id="quiz-feedback" class="quiz-feedback hidden"></div>
+                    <div class="quiz-navigation">
+                        <button id="quiz-submit" class="quiz-btn submit-btn">Enviar Resposta</button>
+                        <button id="quiz-next" class="quiz-btn next-btn hidden">Próxima Questão</button>
+                        <button id="quiz-restart" class="quiz-btn restart-btn hidden">Reiniciar Quiz</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mock Exams Section -->
+            <section id="mock-exams" class="section">
+                <h2>Provas Simuladas</h2>
+                <p class="section-intro">Provas práticas completas para simular a experiência do exame de certificação real.</p>
+                
+                <div class="mock-exam-selection">
+                    <div class="mock-exam-card" data-exam="1">
+                        <h3>Prova Simulada 1</h3>
+                        <p>40 questões cobrindo todos os capítulos</p>
+                        <p class="exam-meta">Limite de tempo: 60 minutos</p>
+                        <button class="start-exam-btn">Iniciar Prova</button>
+                    </div>
+                    <div class="mock-exam-card" data-exam="2">
+                        <h3>Prova Simulada 2</h3>
+                        <p>40 questões cobrindo todos os capítulos</p>
+                        <p class="exam-meta">Limite de tempo: 60 minutos</p>
+                        <button class="start-exam-btn">Iniciar Prova</button>
+                    </div>
+                    <div class="mock-exam-card" data-exam="3">
+                        <h3>Prova Simulada 3</h3>
+                        <p>40 questões cobrindo todos os capítulos</p>
+                        <p class="exam-meta">Limite de tempo: 60 minutos</p>
+                        <button class="start-exam-btn">Iniciar Prova</button>
+                    </div>
+                </div>
+
+                <div id="mock-exam-container" class="quiz-container hidden">
+                    <div class="mock-exam-header">
+                        <h3 id="mock-exam-title"></h3>
+                        <div class="mock-exam-timer">
+                            <span id="timer-display">60:00</span>
+                        </div>
+                        <div class="quiz-progress">
+                        <span id="mock-progress-text">Questão 1 de 40</span>
+                            <div class="progress-bar">
+                                <div id="mock-progress-bar" class="progress-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="mock-exam-question" class="quiz-question"></div>
+                    <div id="mock-exam-options" class="quiz-options"></div>
+                    <div class="mock-exam-navigation">
+                        <button id="mock-exam-submit" class="quiz-btn submit-btn">Enviar Resposta</button>
+                        <button id="mock-exam-next" class="quiz-btn next-btn hidden">Próxima Questão</button>
+                        <button id="mock-exam-finish" class="quiz-btn finish-btn hidden">Finalizar Prova</button>
+                    </div>
+                </div>
+
+                <div id="mock-exam-results" class="quiz-results hidden">
+                    <h3>Resultados da Prova</h3>
+                    <div class="score-display">
+                        <span id="exam-score" class="score-number"></span>
+                        <span id="exam-percentage" class="score-percentage"></span>
+                    </div>
+                    <div id="exam-feedback" class="exam-feedback"></div>
+                    <button id="mock-exam-restart" class="quiz-btn restart-btn">Fazer Outra Prova</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <p>Companheiro de Estudos CT-AI - Baseado no Programa de Certificação ISTQB Certified Tester AI Testing v1.0</p>
+        </footer>
+    </div>
+
+    <script src="quizzes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

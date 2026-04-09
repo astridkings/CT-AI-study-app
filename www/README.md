@@ -57,17 +57,10 @@ Visite: [https://seu-usuario.github.io/ct-ai-study](https://seu-usuario.github.i
 #### 📱 QR Code para Compartilhar
 Gere um QR code online com a URL acima para facilitar o acesso móvel.
 
-#### 📦 APK (App Nativo Android) - GERAR ONLINE
-Para gerar APK sem instalar nada:
+#### 📦 APK (App Nativo Android)
+Para gerar um APK real, você precisaria:
+1. Instalar Android Studio
+2. Usar Capacitor ou Cordova para empacotar
+3. Ou usar serviços online como PWA2APK
 
-1. **Acesse PWABuilder:** https://www.pwabuilder.com
-2. **Cole a URL:** https://astridkings.github.io/CT-AI-study-app
-3. **Clique "Start"**
-4. **Selecione "Android"**
-5. **Clique "Download"** para baixar o APK
-6. **Compartilhe o arquivo .apk** com outras pessoas
-
-**Alternativa:** Use https://pwa2apk.com com a mesma URL.
-
-### 📁 Arquivos Prontos
-- `CT-AI-Study-APK-Ready.zip` (criado localmente) - contém arquivos web para conversão
+Mas o **site já funciona perfeitamente** como um app instalável!
